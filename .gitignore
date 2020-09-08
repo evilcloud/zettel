@@ -3,6 +3,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,code,pycharm+all,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,code,pycharm+all,python
 
+# Personal
+.html
+.csv
+
 ### Code ###
 .vscode/*
 !.vscode/settings.json
