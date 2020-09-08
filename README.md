@@ -1,7 +1,5 @@
 ![](media/zettel_logo.png)
 
-# Zettel
-
 ## What
 
 A set of utilities for Zettelkasten, mostly around cleaning .md files and building schemas for different database formats. Currently supported:
@@ -10,15 +8,15 @@ A set of utilities for Zettelkasten, mostly around cleaning .md files and buildi
 - graphXR
 - Neo4j in the form of cypher commands
 
-Also there is an awkward Obsidian reformater.
+Also there is an awkward Obsidian reformatted.
 
-# State
+## State
 
 This is far from being even alpha. Missing:
 
 - config
 - testing
-- maybe kill off Obsidian reformating (it appears to have an adapter buildin now -- also, my solution is way too messy)
+- maybe kill off Obsidian reformatting (it appears to have an adapter build-in now -- also, my solution is way too messy)
 
 ## Next
 
