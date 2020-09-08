@@ -14,10 +14,15 @@ Main formats are:
 	Multiples packed into a list are indicated as plurals.
 	If dictionary of complex list structure is necessary, use different naming conventions
 """
+from prompt_toolkit.widgets.menus import MenuItem
 from graph.graphrx import graphrx
 import menu
 
 from graph.pyvis import pyvis
+
+
+def cypher(directory):
+    pass
 
 
 def main():
@@ -26,6 +31,7 @@ def main():
         "return": "...return",
         "pyvis": "PYVIS graph",
         "graphxr": "graphXR graph",
+        "cypher": "Cypher code",
     }
     a = menu.menu_list(menu_items, "Graph")
     input(a)
@@ -33,6 +39,8 @@ def main():
         pyvis(directory)
     if a == menu_items["graphxr"]:
         graphrx(directory)
+    if a == menu_items["cypher"]:
+        cypher(directory)
 
 
 if __name__ == "__main__":

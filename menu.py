@@ -27,9 +27,9 @@ def menu_list(items: dict, label: str = "Questions"):
 
 def main():
     menu_items = {
-        "quit": "...quit",
         "graph": "Build the graph",
         "obsidian": "Obsidian specific format and folder",
+        "quit": "...quit",
     }
     while True:
         a = menu_list(menu_items, "Main")
