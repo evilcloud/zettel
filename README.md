@@ -4,9 +4,9 @@
 
 A set of utilities for Zettelkasten, mostly around cleaning .md files and building schemas for different database formats. Currently supported:
 
-- Pyvis (and by extension NetworkX could be added with no issues)
-- graphXR
-- Neo4j in the form of cypher commands
+- [Pyvis](https://pyvis.readthedocs.io/en/latest/) (and by extension NetworkX could be added with no issues)
+- [graphXR](https://www.kineviz.com/)
+- [Neo4j](https://neo4j.com/developer/cypher/) in the form of cypher commands
 
 Also there is an awkward Obsidian reformatted.
 
