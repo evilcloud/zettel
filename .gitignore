@@ -6,6 +6,7 @@
 # Personal
 .html
 .csv
+.vscode
 
 ### Code ###
 .vscode/*
